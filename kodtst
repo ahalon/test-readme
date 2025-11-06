@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuda Natury</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cuda Świata Naturalnego</h1>
+    </header>
+
+    <main>
+        <section id="grand-canyon">
+            <h2>1. Wielki Kanion</h2>
+            <p>Wielki Kanion w Arizonie to spektakularny dowód geologicznej historii Ziemi, rzeźbiony przez rzekę Kolorado.</p>
+            <p>Obejmuje różnorodne ekosystemy i wymaga ciągłych działań konserwacyjnych.</p>
+
+            <div class="links">
+                <a href="https://en.wikipedia.org/wiki/Grand_Canyon" target="_blank">Wiki: Kanion</a>
+                <a href="https://en.wikipedia.org/wiki/Colorado_River" target="_blank">Wiki: Rzeka Kolorado</a>
+            </div>
+
+            <div class="tables-container">
+                <table>
+                    <caption>Kluczowe Warstwy Geologiczne</caption>
+                    <tr><th>Warstwa</th><th>Wiek (mln lat)</th></tr>
+                    <tr><td>Wapień Kaibab</td><td>~270</td></tr>
+                    <tr><td>Łupek Vishnu</td><td>~1,750</td></tr>
+                </table>
+
+                <table>
+                    <caption>Informacje dla Odwiedzających</caption>
+                    <tr><th>Punkt</th><th>Wysokość (stóp)</th></tr>
+                    <tr><td>Mather Point</td><td>7,100</td></tr>
+                    <tr><td>Szlak Bright Angel</td><td>6,860</td></tr>
+                </table>
+            </div>
+        </section>
+       
+        <section id="great-barrier-reef">
+            <h2>2. Wielka Rafa Koralowa</h2>
+            <p>Największy system raf koralowych na świecie, położony u wybrzeży Australii, widoczny z kosmosu.</p>
+            <p>Jest domem dla niezliczonych gatunków, ale zagrożony przez zmiany klimatu i zanieczyszczenia.</p>
+
+            <div class="links">
+                <a href="https://en.wikipedia.org/wiki/Great_Barrier_Reef" target="_blank">Wiki: Rafa</a>
+                <a href="https://en.wikipedia.org/wiki/Coral_bleaching" target="_blank">Wiki: Bielenie Koralowców</a>
+            </div>
+
+            <div class="tables-container">
+                <table>
+                    <caption>Kluczowe Życie Morskie</caption>
+                    <tr><th>Typ</th><th>Przykład</th></tr>
+                    <tr><td>Gad</td><td>Żółw Morski</td></tr>
+                    <tr><td>Ryba</td><td>Błazenek</td></tr>
+                </table>
+
+                <table>
+                    <caption>Główne Zagrożenia</caption>
+                    <tr><th>Zagrożenie</th><th>Poziom</th></tr>
+                    <tr><td>Zmiany Klimatu</td><td>Wysoki</td></tr>
+                    <tr><td>Zanieczyszczenia</td><td>Średni</td></tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="mount-everest">
+            <h2>3. Mount Everest</h2>
+            <p>Najwyższa góra Ziemi, położona w Himalajach na granicy Nepalu i Chin.</p>
+            <p>Symbol ludzkiej wytrwałości. Wymaga dbałości o zrównoważoną turystykę i zarządzanie odpadami.</p>
+
+            <div class="links">
+                <a href="https://en.wikipedia.org/wiki/Mount_Everest" target="_blank">Wiki: Everest</a>
+                <a href="https://en.wikipedia.org/wiki/The_Death_Zone" target="_blank">Wiki: Strefa Śmierci</a>
+            </div>
+
+            <div class="tables-container">
+                <table>
+                    <caption>Kluczowe Fakty</caption>
+                    <tr><th>Kategoria</th><th>Wartość</th></tr>
+                    <tr><td>Wysokość</td><td>8,848.86 m</td></tr>
+                    <tr><td>Pierwsze Wejście</td><td>1953</td></tr>
+                </table>
+
+                <table>
+                    <caption>Popularne Trasy</caption>
+                    <tr><th>Nazwa Trasy</th><th>Trudność</th></tr>
+                    <tr><td>Grań Południowo-Wschodnia</td><td>Standard</td></tr>
+                    <tr><td>Grań Północna</td><td>Wyzwanie</td></tr>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <section id="feedback-form">
+        <h2>Podziel się Opinią</h2>
+        <form>
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="wonder">Ulubiony Cud:</label>
+            <select id="wonder" name="wonder">
+                <option value="canyon">Kanion</option>
+                <option value="reef">Rafa</option>
+                <option value="everest">Everest</option>
+            </select>
+
+            <label for="comments">Komentarze:</label>
+            <textarea id="comments" name="comments" rows="3"></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cuda Natury</p>
+    </footer>
+</body>
+</html>
